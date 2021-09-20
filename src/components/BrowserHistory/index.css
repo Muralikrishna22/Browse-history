@@ -1,0 +1,80 @@
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.search-banner {
+  background-color: #3367d6;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.search-input-container {
+  display: flex;
+  border: 1px solid #6697ff;
+  border-radius: 5px;
+  background-color: #2850a7;
+  height: 6vh;
+  width: 30vw;
+}
+
+.search-icon-container {
+  display: flex;
+  border-right: 1px solid #6697ff;
+  background-color: transparent;
+  height: 6vh;
+  width: 3vw;
+}
+
+.search-input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: 300;
+  font-family: Roboto;
+}
+
+.search-icon {
+  width: 80%;
+  height: 80%;
+  align-self: center;
+  justify-self: center;
+}
+
+.history-logo {
+  height: 60px;
+  width: 150px;
+  margin: 15px;
+}
+
+.browser-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.browser-container {
+  margin: 3vw;
+  padding: 20px;
+  box-shadow: 0px 0px 2px 2px #ececec;
+  border-radius: 30px;
+}
+
+.information {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 25px;
+  color: #475569;
+}
+.information-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

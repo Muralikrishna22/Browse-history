@@ -1,0 +1,44 @@
+.history-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.history-time {
+  margin-right: 40px;
+  color: #475569;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
+.history-title {
+  margin: 30px;
+  font-family: Roboto;
+  font-size: 25px;
+  color: #475569;
+  font-weight: bold;
+}
+.domain-url {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #64748b;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
+
+/* Hex: #3367d6
+Hex: #2850a7
+Hex: #ececec
+Hex: #64748b
+Hex: #f8fafc
+Hex: #6697ff
+Hex: #ffffff
+Hex: #475569 */
